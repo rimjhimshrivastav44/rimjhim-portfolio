@@ -60,6 +60,7 @@ app.post("/api/contact", async (req, res) => {
   }
 });
 
+
 async function start() {
   try {
     if (!process.env.MONGODB_URI) {
