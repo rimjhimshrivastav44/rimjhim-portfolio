@@ -1,3 +1,4 @@
+import ContactForm from './contact';
 import React, { useState } from "react";
 import {
   ArrowDown, ArrowUp, ArrowUpRight, BriefcaseBusiness, Code2, Github, GraduationCap,
@@ -268,8 +269,7 @@ export default function App() {
                 <div className="contact-icon"><Mail size={25} /></div>
                 <h3>Say hello.</h3>
                 <p>I'm always interested in learning, sharing ideas, and connecting with people who enjoy building things.</p>
-                <a href="mailto:your-email@example.com">your-email@example.com <ArrowUpRight size={16} /></a>
-                <div className="contact-note">Please replace this placeholder email with your own before publishing.</div>
+                <a href="mailto:rimjhimshrivastav44@gmail.com">rimjhimshrivastav44@gmail.com <ArrowUpRight size={16} /></a>
               </div>
               <form className="contact-form" onSubmit={handleSubmit}>
                 <div className="form-row">
